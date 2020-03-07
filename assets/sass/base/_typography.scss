@@ -1,0 +1,35 @@
+body {
+  font-family: $raleway;
+}
+
+h1 {
+  text-align: center;
+  width:100%;
+  font-size: $x-large;
+  font-weight: $bold;
+}
+
+h2 {
+  text-align: center;
+  width: 100%;
+  font-size: $x-large;
+  font-weight: $light;
+}
+
+h3 {
+  text-align: center;
+  width: 100%;
+  font-size: $large;
+  font-weight: $bold;
+  margin-bottom:30px;
+}
+
+p {
+  text-align: left;
+  font-size: $medium;
+  font-weight: $regular;
+  width: 50%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom:50px
+}

@@ -1,5 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+	 v2.0 | 20110126
+	 License: none (public domain)
+	 Changed from CSS to SASS
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
 body {
-  background-color: red;
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 70px;
+  font-weight: 200;
+}
+
+h3 {
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+p {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.nav {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.nav__img {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.section {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.bg-gray {
+  background-color: #91918d;
+  color: #fff;
+}
+
+.bg-darkgray {
+  background-color: #686963;
+  color: #fff;
+}
+
+.bg-jelly {
+  background-color: #e56353;
+  color: #fff;
+}
+
+.bg-white {
+  background-color: #fff;
+  color: #686963;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+.img--long {
+  width: 70%;
+  height: 400px;
+}
+
+.img--square {
+  width: 500px;
+  height: 500px;
+}
+
+.header {
+  background-color: #e56353;
+  color: #fff;
+  height: 30vh;
+  padding: 200px 0 200px 0;
+}
+
+.footer {
+  padding: 100px 0;
+}
+
+.footer__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+
+button {
+  border-radius: 100px;
+  border-color: #babab8;
+  color: #686963;
+  font-weight: 700;
+}
+button:hover {
+  background-color: #babab8;
+  color: #fff;
+}
+
+.section__button--l {
+  font-size: 50px;
+  margin-top: 30px;
+  padding: 10px 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=main.css.map */
